@@ -1,4 +1,5 @@
 in ← •Flines "../input/01.in"
 
-
-•Show  ⌈´ (+´)¨ (•BQN¨)¨ ((⊢-˜+`×¬)∘(""⊸≡¨)⊔⊢)in
+elfCalories ← +´¨•BQN¨¨((⊢-˜+`×¬)∘(""⊸≡¨)⊔⊢)in
+•Show  ⌈´elfCalories
+•Show  +´3↑∨elfCalories
